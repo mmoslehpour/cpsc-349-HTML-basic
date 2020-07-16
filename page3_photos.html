@@ -6,29 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Intro about me">
 
+    <link rel="stylesheet" href="css/style.css">
+
     <!-- title -->
     <title>Introduction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
-    <!-- styles -->
-    <style media="screen">
-      body{
-        color: white;
-        background: black;
-      }
-      ul{list-style-type:none;}
-      ul li{
-        width:350px;
-        height:10px;
-        float:left;
-      }
-    </style>
   </head>
   <body>
     <!-- header of page -->
       <h1><font face="monaco" color="b3d9ff" size = "7"> <b>Here are some intresting photos!</b></font></h1>
     <p>
       <!-- navigations -->
-      <nav>
+      <nav class="nav-bar">
         <ul>
           <li><font face="verdana" size= "5"> <a href="index.html"> INTRO PAGE </a></li>
           <li><a href="page2_questions.html"> Q&A PAGE</a></li>
@@ -41,26 +31,26 @@
     <!-- start main contain of page -->
     <main>
       <section>
-        <ol>
+        <ol><font face="verdana" size= "3" color="white">
           <!-- image 1 -->
-          <li><img src="image/tomi.jpg" alt="tomi">
-            <p><font face="verdana" size= "3" color="white">This is my dog <b>Tomi</b>,
+          <li><img src="image/tomi.jpg" alt="tomi" width="500" height="500">
+            <p><p id="p-one"><font face="verdana" size= "3" color="white">This is my dog <b>Tomi</b>,
               he was born on Aug 2011, his breed is not that common yet in the States but is a Japanese breed called <b><i>Shiba Inu</i></b>.
               People often mislead him as a fox!
             </p></li>
             <br>
 
           <!-- image 2 -->
-          <li><img src="image/mika.jpg" alt="mika">
-            <p><font face="verdana" size= "3" color="white">This is my dog <b>Mika</b>,
+          <li><img src="image/mika.jpg" alt="mika" width="500" height="500">
+            <p><p id="p-two"><font face="verdana" size= "3" color="white">This is my dog <b>Mika</b>,
               she was born on Aug 2014, Mika is the same breed as Tomi, but a different color.
               People often mislead her as a husky puppy! But in fact she is already full grown.
             </p></li>
             <br>
 
           <!-- image 3 -->
-          <li><img src="image/tomiandmika.jpg" alt="mika">
-            <p><font face="verdana" size= "3" color="white">although Mika joined the family after Tomi and she is 3 years younger,
+          <li><img src="image/tomiandmika.jpg" alt="tomiandmika" width="500" height="500">
+            <p><p id="p-three"><font face="verdana" size= "3" color="white">although Mika joined the family after Tomi and she is 3 years younger,
               but as a strong indepentdent women, she is always the leader in the house.
             </p></li>
         </ol>
